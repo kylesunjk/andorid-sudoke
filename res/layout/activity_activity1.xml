@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity1" >
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="17dp"
+        android:text="Home" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/home"
+        android:layout_alignBottom="@+id/home"
+        android:layout_centerHorizontal="true"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/submit"
+        android:layout_marginLeft="23dp"
+        android:text="TextView" />
+   
+</RelativeLayout>
